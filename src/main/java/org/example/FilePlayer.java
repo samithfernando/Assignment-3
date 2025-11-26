@@ -27,6 +27,7 @@ public class FilePlayer {
 			clip.open(audioInputStream);
 			clip.start();
 
+
 		} catch (Exception e) {
 			System.out.println("Error with playing sound.");
 			e.printStackTrace();
